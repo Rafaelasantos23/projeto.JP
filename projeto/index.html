@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>JokenPô</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>JokenPô</h1>
+
+        <a href="https://www.google.com/search?q=regras+do+jogo+pedra+papel+tesoura&sca_esv=f7010a6fa6b14553&sxsrf=ACQVn09lKrVketJuv66Dbm5hsiWYuL4NlA%3A1709333977759&ei=2V3iZYjrLYrR1sQPpJ2gIA&udm=&oq=regras+do+jogo+pedr&gs_lp=Egxnd3Mtd2l6LXNlcnAiE3JlZ3JhcyBkbyBqb2dvIHBlZHIqAggAMgoQIxiABBiKBRgnMgYQABgWGB4yBhAAGBYYHkieKFCRClj6HnABeAGQAQCYAZIBoAGUC6oBBDAuMTG4AQHIAQD4AQGYAgugAsoKwgIKEAAYRxjWBBiwA8ICBBAjGCfCAgcQABiABBgTwgIFEAAYgASYAwCIBgGQBgiSBwQxLjEw&sclient=gws-wiz-serp">Regras do jogo</a>
+
+        <div class="button">
+            <button id="rock" onclick="playHuman('rock')">&#x1F44A;</button>
+            <button id="paper" onclick="playHuman('paper')">&#x1F91A;</button>
+            <button id="scissors" onclick="playHuman('scissors')">&#x270C;</button>
+        </div>
+
+        <p class="result"></p>
+
+        <p class = 'minhap'>Sua Pontuação: <span id="minhap">0</span></p>
+        <p class="suap">Pontuação da maquina: <span id="suap">0</span></p>
+
+
+        <img class="img" width="30px" src="./assets/3f.png">
+    </div>
+
+</body>
+<script src="./script.js"></script>
+</html>
